@@ -33,6 +33,7 @@ public:
 
 void callPrint (base *b) {
   b->print();
+  cout << "Calling callPrint function";
 }
 
 int main()
